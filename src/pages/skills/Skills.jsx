@@ -37,14 +37,13 @@ export default function Skills() {
 
 function SkillProgress({ skill, value }) {
   return (
-    <div className="progress">
-      <span className="skill" data-aos="fade-up" data-aos-delay="100">
+    <div className="progress" data-aos="fade-up"
+    data-aos-delay="100">
+      <span className="skill">
         <span>{skill}</span> <i className="val">{value}%</i>
       </span>
       <div
         className="progress-bar-wrap"
-        data-aos="fade-up"
-        data-aos-delay="100"
       >
         <div
           className="progress-bar"
