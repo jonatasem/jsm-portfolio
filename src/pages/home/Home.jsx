@@ -10,11 +10,12 @@ export default function Home() {
           Jonatas Moreira
         </h2>
         <p data-aos="fade-up" data-aos-delay="200">
-          Eu sou{" "}
+          Eu trabalho com{" "}
           <ReactTyped
             strings={[
-              " Desenvolvedor front end",
-              "Desenvolvedor back end",
+              "Front end",
+              "Back end",
+              "DataBase",
               "Designer",
             ]}
             typeSpeed={100}

@@ -1,6 +1,6 @@
 import "./Header.scss";
 
-import imgAutor from "../../assets/img/my-profile-img.png";
+import imgAutor from "../../assets/img/my-profile-img.jpg";
 
 //icons redes sociais
 import { FaFacebook } from "react-icons/fa";

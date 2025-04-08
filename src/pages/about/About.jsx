@@ -1,6 +1,6 @@
 import "./About.scss";
 
-import imgAutor from "../../assets/img/my-profile-img.png";
+import imgAutor from "../../assets/img/my-profile.jpg";
 import { FaAngleRight } from "react-icons/fa";
 
 export default function About() {
@@ -44,7 +44,7 @@ export default function About() {
                   </li>
                   <li>
                     <FaAngleRight />
-                    <strong>Website:</strong> <span>www.example.com</span>
+                    <strong>Website:</strong> <span><a href="https://jonatasmoreira.com">https://jonatasmoreira.com</a></span>
                   </li>
                   <li>
                     <FaAngleRight />
@@ -78,10 +78,20 @@ export default function About() {
               </div>
             </div>
             {/*Section Languages*/}
-            <p data-aos="fade-up" data-aos-delay="100">
-              <strong>Idiomas: </strong>
-              Português -<strong> Nativo</strong>, Inglês -<strong> B1</strong>
-            </p>
+            <div className="container-languages" data-aos="fade-up" data-aos-delay="100">
+              <h2>Idiomas</h2>
+              <ul>
+                <li>
+                  <p>Português - Nativo</p>
+                </li>
+                <li>
+                  <p>Inglês - B1</p>
+                </li>
+                <li>
+                  <p>Espanhol - A2</p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
